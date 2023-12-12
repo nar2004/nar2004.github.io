@@ -1,0 +1,132 @@
+
+#title{
+    background-color: #FDF7E4;
+}
+
+.container-fluid {
+    padding: 3% 15%;
+}
+
+h1{
+    font-family: 'Montserrat', sans-serif;
+    font-weight: bold;
+    font-size: 3rem;
+    line-height: 1.5;
+    color: #61677A;
+}
+
+h2{
+    color: #61677A;
+    font-family: 'Montserrat';
+    font-size: 1.5;
+    font-weight: bold;
+}
+
+h3{
+    font-family: 'Montserrat';
+    font-weight: bold;
+}
+
+p{
+    color: #8f8f8f;
+}
+
+.navbar{
+    padding: 0 0 4.5rem;
+}
+.navbar-brand{
+    font-family: 'Inter' ;
+    font-size: 2.0rem;
+}
+
+.navbar-item{
+    padding: 0 18px;
+    font-family: 'Inter';
+}
+
+.navbar-link{
+    font-family: 'Inter';
+    font-size: 1.2rem;
+}
+
+.title-image{
+    width: 60%;
+    transform: rotate(20deg);
+    position: absolute;
+    z-index: 1;
+}
+ @media (max-width: 1028px){
+
+    #title{
+        text-align: center;
+    }
+    .title-image{
+        position: static;
+        transform: rotate(0);
+    }
+ }
+
+
+
+#features{
+    padding: 7% 15%;
+    background-color: #fff;
+    z-index: 2;
+    position: relative;
+}
+
+.feature-box{
+    text-align: center;
+    padding: 5%;
+}
+
+#testimonials{
+    text-align: center;
+    background-color: #FDF7E4;
+}
+
+.carousel-item{
+    padding: 7% 15%;
+}
+
+.testimonials-image{
+    width: 20%;
+    border-radius: 5%;
+    margin: 10px;
+}
+
+
+
+
+
+#pricing{
+    background-color: #DED0B6;
+    padding: 100px;
+    text-align: center;
+    z-index: 2;
+    position: relative;
+}
+
+.pricing-header{
+    color: #000;
+}
+
+.pricing-column{
+    padding: 3% 2%;
+}
+
+
+
+/*Media Query Section*/
+
+ @media (max-width: 1028px){
+
+    #title{
+        text-align: center;
+    }
+    .title-image{
+        position: static;
+        transform: rotate(0);
+    }
+ }
+/* COGS3 studyBuddy specific styles go here. */
